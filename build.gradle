@@ -1,0 +1,16 @@
+// Aligned with Code on the Go 26.38+ built-in toolchain (Gradle 9.6.1 / AGP 9.3.1).
+// Java-only app; CoGo's injected tooling may still require Kotlin on the root classpath.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.21'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '9.3.1' apply false
+    id 'com.android.library' version '9.3.1' apply false
+}

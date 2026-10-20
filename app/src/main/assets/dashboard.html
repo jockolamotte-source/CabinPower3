@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Cabin Power 3</title>
+<style>
+:root{color-scheme:light;--ink:#263b42;--muted:#74858b;--gold:#F4A91C;--green:#258C68;--sky:#4BAFD4;--cream:#FFF8E9;--card:#FFFFFF;--line:#F0E6CA;--red:#CA6350;--radius:23px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#FFF8E9,#FFFAF0 70%,#FFF6E6);color:var(--ink);font:14px system-ui,-apple-system,Roboto,sans-serif}button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.45}main{max-width:760px;margin:0 auto;padding:18px 17px 110px}.hidden{display:none!important}.row{display:flex;align-items:center;gap:10px}.between{justify-content:space-between}.eyebrow{letter-spacing:2px;font-size:10px;text-transform:uppercase;font-weight:850;color:#B8831E}.muted{color:var(--muted)}.small{font-size:12px}.tiny{font-size:11px}.title{font-size:31px;line-height:1.12;font-weight:880;letter-spacing:-1.4px;margin:2px 0 0}.subhead{margin:0 0 13px;color:#A58A51;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase}.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:19px;box-shadow:0 10px 24px rgba(155,111,19,.06)}.actions{display:flex;gap:8px}.iconbtn{border:1px solid #EEDFB8;border-radius:14px;background:#fffdf7;width:43px;height:43px;color:var(--ink);font-size:21px}.brandHeader{margin:0 0 20px}.live{font-size:11px;padding:7px 10px;border-radius:99px;border:1px solid #A6DCC9;background:#EEF9F1;color:#177858;font-weight:750;white-space:nowrap}.live::before{content:'●';font-size:8px;margin-right:6px}.live.warn{background:#FFF0EB;border-color:#F3C6BA;color:#B45A49}.live.pending{background:#FFF6DF;border-color:#F2D68D;color:#997219}.hero{border-radius:27px;padding:23px;background:linear-gradient(131deg,#FFE899 0%,#FFDB64 43%,#AEE1F7 100%);box-shadow:0 17px 32px rgba(230,164,54,.19);position:relative;overflow:hidden;min-height:160px}.hero:after{content:'';width:210px;height:210px;border-radius:50%;background:radial-gradient(circle,#FFF8CF 0%,#FFDA6488 44%,transparent 73%);position:absolute;right:-45px;top:-87px}.hero>*{position:relative;z-index:1}.hero h2{font-size:30px;letter-spacing:-1px;margin:19px 0 8px}.hero .text{font-size:12px;color:#70591F;max-width:280px}.sunBadge{font-size:25px}.heroFooter{margin-top:18px;font-size:12px;color:#70591F}.section{margin-top:25px}.metricGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.metric{min-height:156px;text-align:left;background:#fff;border:1px solid var(--line);border-radius:22px;padding:17px 15px;box-shadow:0 9px 21px rgba(172,129,39,.055);position:relative}.metric:active,.pill:active,.navbtn:active{transform:scale(.985)}.metric:nth-child(1){background:linear-gradient(155deg,#FFFBEF,#FFF1C6)}.metric:nth-child(2){background:linear-gradient(155deg,#F6FFF8,#E7F8EA)}.metric:nth-child(3){background:linear-gradient(155deg,#F9FDFF,#E6F5FC)}.metric:nth-child(4){background:linear-gradient(155deg,#FFFCF6,#F9F0E8)}.metric .ic{display:inline-grid;place-items:center;width:31px;height:31px;border-radius:11px;background:#ffffffb8;font-size:18px}.metric .label{font-size:12px;color:#697e83;margin:10px 0 8px}.metric .number{font-size:31px;font-weight:850;line-height:1;letter-spacing:-1px}.metric .unit{font-size:13px;color:#60757d;font-weight:600;margin-left:3px}.metric .secondary{font-size:11px;color:#779097;margin-top:11px}.progress{height:7px;border-radius:8px;background:#D5EBDE;overflow:hidden;margin-top:12px}.progress>.fill{height:100%;width:0;background:linear-gradient(90deg,#5AC7AA,#2E9B6F);border-radius:8px;transition:width .4s}.flow{background:linear-gradient(145deg,#fff,#fff9ea);border:1px solid var(--line);padding:18px;border-radius:23px}.flowGrid{display:grid;grid-template-columns:1fr 28px 1fr 28px 1fr;align-items:center;margin-top:19px}.flowNode{text-align:center;min-width:0}.flowIcon{width:51px;height:51px;display:grid;place-items:center;margin:0 auto 9px;background:#FDF3D6;border-radius:17px;font-size:24px}.flowNode b{display:block;font-size:16px}.flowNode small{display:block;font-size:10px;color:var(--muted);margin-top:3px}.wire{height:2px;background:#ECC661;position:relative}.wire:after{content:'';position:absolute;right:0;top:-3px;border-left:6px solid #E9B23A;border-top:4px solid transparent;border-bottom:4px solid transparent}.wire.dim{opacity:.2}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:11px}.valueCard{border:1px solid var(--line);border-radius:18px;padding:16px;background:#fff}.valueCard strong{display:block;font-size:23px;margin-top:7px}.statList{background:white;border-radius:21px;border:1px solid var(--line);overflow:hidden}.statLine{display:flex;justify-content:space-between;gap:20px;padding:14px 17px;border-bottom:1px solid var(--line);font-size:13px}.statLine:last-child{border:0}.statLine span{color:#73858a}.statLine b{text-align:right}.note{font-size:11px;line-height:1.5;color:#788b92}.btn{border:0;background:linear-gradient(110deg,#FFB733,#FFD76F);color:#574014;border-radius:15px;padding:14px 16px;font-weight:800;box-shadow:0 8px 22px #E5B35F35}.btn.outline{background:white;border:1px solid #E8D9B4;color:#4c5e63;box-shadow:none}.btn.danger{background:#FFF0EA;color:#AF4E3D;box-shadow:none}.btn.full{width:100%}.btn.sm{padding:10px 12px;border-radius:12px;font-size:12px}.tabs{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none}.pill{border:1px solid #EADDBE;background:#FFFDF9;border-radius:99px;padding:10px 13px;color:#657980;white-space:nowrap;font-weight:730;font-size:12px}.pill.selected{background:#E9A526;border-color:#E9A526;color:#4F330A}.pill.period.selected{background:#2F9476;border-color:#2F9476;color:white}.chartCard{padding:16px 12px 11px;margin-top:13px}.chartWrap{position:relative;margin:14px 0 2px}.chartCanvas{display:block;width:100%;height:247px;touch-action:pan-y}.chartSummary{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:7px}.chartSummary div{border-radius:14px;background:#FFFAF0;padding:11px 9px;text-align:center}.chartSummary small{display:block;color:#829094;font-size:10px;margin-bottom:4px}.chartSummary b{font-size:16px}.chartInfo{font-size:12px;color:#75888E;text-align:center;padding:10px 6px;min-height:32px}.empty{color:#8d9699;text-align:center;padding:45px 15px;font-size:13px;line-height:1.6}.alertCard{margin-bottom:12px;padding:17px;background:white;border:1px solid var(--line);border-radius:20px}.switchRow{display:flex;align-items:center;justify-content:space-between;gap:16px}.switchRow b{font-size:14px}.switchRow p{font-size:12px;color:var(--muted);margin:5px 0 0}.switch{appearance:none;width:47px;height:27px;border-radius:20px;background:#D1D7D9;position:relative;flex-shrink:0;transition:.2s}.switch:after{content:'';width:21px;height:21px;background:white;border-radius:50%;position:absolute;left:3px;top:3px;box-shadow:0 2px 5px #0002;transition:.2s}.switch:checked{background:#2CA27D}.switch:checked:after{transform:translateX(20px)}input[type=range]{width:100%;accent-color:#F0A927;margin-top:15px}.alertEvent{padding:13px 0;border-bottom:1px solid var(--line)}.alertEvent:last-child{border:0}.alertEvent b{font-size:13px}.alertEvent small{color:#97A3A6}.alertEvent p{margin:4px 0;font-size:12px;color:#667A83}.mutedHeader{font-size:12px;color:#8B9898}.codeTable{width:100%;border-collapse:collapse;font-size:12px}.codeTable td{padding:9px 6px;border-bottom:1px solid #F5EDD8;word-break:break-word}.codeTable td:first-child{font-weight:760;color:#997123}.codeTable td:last-child{text-align:right}.bottomNav{position:fixed;z-index:10;bottom:0;left:0;right:0;background:#FFFEFBF5;border-top:1px solid #EFDFB8;box-shadow:0 -6px 25px rgba(151,111,25,.08);padding:9px max(8px,env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom));display:grid;grid-template-columns:repeat(5,1fr);gap:2px}.navbtn{border:0;background:transparent;color:#899799;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:3px;min-height:52px;font-size:10px}.navbtn .nicon{font-size:22px}.navbtn.active{background:#FFF0C9;color:#92620F;font-weight:800}.screen{display:none}.screen.active{display:block}.screen h2{font-size:26px;letter-spacing:-.75px;margin:4px 0 12px}.screenLead{color:#7D8D92;font-size:13px;line-height:1.5;margin-bottom:21px}.statusLine{font-size:11px;color:#7e8f95;margin:9px 0 17px}.loginScreen{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:30px 24px;max-width:500px;margin:0 auto}.loginIcon{font-size:46px;background:linear-gradient(135deg,#FFE783,#A3DCF2);width:86px;height:86px;border-radius:27px;display:grid;place-items:center;margin-bottom:23px}.loginScreen h1{font-size:37px;line-height:1.1;margin:8px 0}.loginScreen p{color:#71868B;font-size:14px;line-height:1.6}.loginScreen label{display:block;margin:17px 0 6px;font-size:12px;color:#61767B;font-weight:700}.loginScreen input{width:100%;padding:16px;border-radius:15px;border:1px solid #E5D7B4;background:white;font-size:16px;color:var(--ink)}.loginScreen .btn{margin-top:24px}.error{margin:15px 0;padding:12px;background:#FFF0EA;border:1px solid #F1C7BB;color:#BA5542;border-radius:14px;font-size:12px}.banner{padding:10px 12px;background:#EFF9F8;border-radius:12px;color:#288275;font-size:12px;margin:12px 0}.settingFooter{padding:12px 0 25px}.spin{display:inline-block;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(min-width:570px){main{padding:24px 27px 110px}.metric{padding:22px}.chartCanvas{height:290px}.bottomNav{left:50%;transform:translateX(-50%);max-width:760px;border-radius:24px 24px 0 0}.flowGrid{max-width:590px;margin:20px auto 0}}
+</style></head><body><div id="versionStamp" style="position:fixed;right:9px;top:5px;z-index:99999;background:#F3A51B;color:#493207;font-size:10px;font-weight:800;border-radius:12px;padding:4px 10px;pointer-events:none">CABIN POWER 3 · FRESH</div>
+<div id="login" class="loginScreen hidden">
+ <div class="loginIcon">☀️</div><div class="eyebrow">Cabin Power • Solar monitoring</div><h1>Sunshine.<br>On your terms.</h1>
+ <p>Your cabin's energy at a glance, with local charts and alerts. Connect using your Enerwise account—no extra server required.</p>
+ <form id="loginForm"><label for="user">Enerwise email / username</label><input id="user" autocomplete="username" required><label for="pass">Password</label><input id="pass" type="password" autocomplete="current-password" required><button id="loginSubmit" class="btn full" type="submit">Connect to Cabin →</button></form>
+ <div id="loginError" class="error hidden"></div><p class="tiny">🔒 Your credentials are encrypted using Android Keystore and stored only on this phone.</p>
+</div>
+<main id="app" class="hidden">
+ <header class="row between brandHeader"><div><div class="eyebrow">ECO-WORTHY • OFF-GRID</div><div class="title">Cabin Power<span style="color:var(--gold)">.</span></div></div><div class="actions"><button id="refreshBtn" class="iconbtn" aria-label="Refresh" title="Refresh">↻</button><button class="iconbtn goSettings" aria-label="Settings" title="Settings">⚙</button></div></header>
+ <div id="errorBar" class="error hidden"></div><div id="statusLine" class="statusLine">Connecting to Enerwise...</div>
+ <section id="page-overview" class="screen active">
+  <div class="hero"><div class="row between"><div class="eyebrow" style="color:#946B1D">CABIN SOLAR SYSTEM</div><span class="live pending" id="online">Connecting</span></div><h2 id="heroHeadline">Power looks good ☀️</h2><div class="text" id="lastSeen">Waiting for the latest readings</div><div class="row heroFooter"><span class="sunBadge">⛺</span><b>ECO-WORTHY Liber 6kP</b></div></div>
+  <div class="section"><h3 class="subhead">Right now <span style="float:right">Tap a card for trends ↗</span></h3><div class="metricGrid">
+    <button class="metric" data-chart="pv"><span class="ic">☀️</span><div class="label">Solar production</div><span id="pv" class="number">—</span><span class="unit">W</span><div class="secondary" id="pvSub">— V · — A</div></button>
+    <button class="metric" data-chart="soc"><span class="ic">🔋</span><div class="label">Battery charge</div><span id="soc" class="number">—</span><span class="unit">%</span><div class="progress"><div id="socFill" class="fill"></div></div><div class="secondary" id="battSub">— V</div></button>
+    <button class="metric" data-chart="load"><span class="ic">🏠</span><div class="label">Cabin consumption</div><span id="load" class="number">—</span><span class="unit">W</span><div class="secondary" id="loadSub">Both AC legs combined</div></button>
+    <button class="metric" data-chart="current"><span class="ic">⚡</span><div class="label">Battery current</div><span id="amps" class="number">—</span><span class="unit">A</span><div class="secondary" id="ampsSub">BMS signed current</div></button>
+  </div></div>
+  <div class="section"><h3 class="subhead">Energy flow</h3><div class="flow"><div class="row between"><b style="font-size:13px">Inverter flow</b><span class="muted tiny" id="mode">Mode —</span></div><div class="flowGrid"><div class="flowNode"><div class="flowIcon">☀️</div><b id="flowPV">— W</b><small>Solar</small></div><div class="wire" id="wire1"></div><div class="flowNode"><div class="flowIcon">🔋</div><b id="flowSOC">—%</b><small>Battery</small></div><div class="wire" id="wire2"></div><div class="flowNode"><div class="flowIcon">🏡</div><b id="flowLoad">— W</b><small>Cabin</small></div></div><p class="note" style="margin-bottom:0">Simplified indicators, not measured bidirectional power flow.</p></div></div>
+  <div class="section"><h3 class="subhead">Electrical snapshot</h3><div class="twocol"><div class="valueCard"><span class="muted small">AC output B</span><strong><span id="outB">—</span> <small>V</small></strong></div><div class="valueCard"><span class="muted small">AC output C</span><strong><span id="outC">—</span> <small>V</small></strong></div><div class="valueCard"><span class="muted small">Inverter temp</span><strong><span id="temp">—</span> <small>°C</small></strong></div><div class="valueCard"><span class="muted small">Battery health</span><strong><span id="soh">—</span> <small>%</small></strong></div></div></div>
+  <div class="section"><button class="btn full" id="openTrends">Explore historical graphs →</button></div>
+ </section>
+ <section id="page-trends" class="screen">
+  <div class="eyebrow">Stored on your phone</div><h2>Energy trends 📈</h2><p class="screenLead">Browse how the cabin changes over time. Tap or drag across a graph to inspect individual readings.</p>
+  <div class="tabs" id="metricOptions"><button class="pill selected" data-metric="pv">☀ Solar W</button><button class="pill" data-metric="soc">🔋 Battery %</button><button class="pill" data-metric="load">🏡 Load W</button><button class="pill" data-metric="voltage">⚡ Battery V</button><button class="pill" data-metric="current">↔ Battery A</button><button class="pill" data-metric="temp">🌡 Temp °C</button></div>
+  <div class="row between" style="margin-top:20px"><b id="chartTitle">Solar production</b><span class="muted tiny" id="chartCount">0 readings</span></div>
+  <div class="tabs" style="margin-top:14px" id="periodOptions"><button class="pill period selected" data-days="1">24 hours</button><button class="pill period" data-days="7">7 days</button><button class="pill period" data-days="30">30 days</button><button class="pill period" data-days="90">90 days</button></div>
+  <div class="panel chartCard"><div id="chartInfo" class="chartInfo">Collecting local history…</div><canvas id="chart" class="chartCanvas"></canvas><div id="emptyChart" class="empty hidden">Not enough points yet.<br>Leave background collection enabled or use the app normally to build history.</div><div class="chartSummary"><div><small>Minimum</small><b id="statMin">—</b></div><div><small>Average</small><b id="statAvg">—</b></div><div><small>Maximum</small><b id="statMax">—</b></div></div></div>
+  <div class="panel" style="margin-top:14px"><b>About your history</b><p class="note">Readings are saved locally from the moment this version is installed. Foreground updates are requested every 30 seconds; Android may defer background jobs beyond 15 minutes. Graph time uses phone capture time, avoiding inverter clock inconsistencies. Gaps mean no measurements were received.</p><div class="row" style="gap:8px"><button id="exportTrends" class="btn sm">Export CSV ↗</button><button id="reloadHistory" class="btn outline sm">Reload graph ↻</button></div></div>
+ </section>
+ <section id="page-alerts" class="screen">
+  <div class="eyebrow">Your monitoring rules</div><h2>Smart alerts 🔔</h2><p class="screenLead">Custom battery, temperature and offline warnings. Alerts work while the app is open and during successful scheduled background checks.</p>
+  <div class="alertCard"><div class="switchRow"><div><b>🔋 Low battery</b><p>Send an alert when battery SOC is at or below your threshold.</p></div><input class="switch" id="lowSocEnabled" type="checkbox"></div><div class="row between" style="margin-top:13px"><span class="small muted">Battery threshold</span><b id="socThresholdLabel">20%</b></div><input id="lowSoc" type="range" min="5" max="80" step="5" value="20"></div>
+  <div class="alertCard"><div class="switchRow"><div><b>🌡 High inverter temperature</b><p>Warn if inverter temperature crosses the selected level.</p></div><input class="switch" id="highTempEnabled" type="checkbox"></div><div class="row between" style="margin-top:13px"><span class="small muted">Temperature threshold</span><b id="tempThresholdLabel">60°C</b></div><input id="highTemp" type="range" min="35" max="95" step="5" value="60"></div>
+  <div class="alertCard"><div class="switchRow"><div><b>📡 Inverter offline</b><p>Alert only when Enerwise explicitly reports it offline—not when the phone lacks internet.</p></div><input class="switch" id="offlineEnabled" type="checkbox"></div></div>
+  <div class="alertCard"><div class="switchRow"><div><b>🔔 Phone notifications</b><p>Allow local Android notifications for triggered rules.</p></div><input class="switch" id="notifications" type="checkbox"></div><button class="btn outline sm" style="margin-top:13px" id="grantNotify">Grant Android notification permission</button></div>
+  <button id="saveAlerts" class="btn full">Save alert settings</button><p class="note">Repeat notices are limited to once per four hours while a threshold stays crossed. These are convenience alerts, not life-safety monitoring.</p>
+  <div class="section"><h3 class="subhead">Recent triggered alerts</h3><div class="panel" id="alertHistory"><div class="empty">No alerts saved yet.</div></div><button id="reloadAlerts" class="btn outline sm" style="margin-top:12px">Refresh alerts ↻</button></div>
+ </section>
+ <section id="page-data" class="screen">
+  <div class="eyebrow">Device diagnostics</div><h2>Inverter details 🛠</h2><p class="screenLead">Technical readings, status, input voltages, BMS flags, and every raw telemetry field received from Enerwise.</p>
+  <div class="panel"><div class="statLine"><span>Model</span><b>ke-6klsuf-2-1pv</b></div><div class="statLine"><span>Cloud state</span><b id="deviceState">—</b></div><div class="statLine"><span>Latest sample</span><b id="deviceSample">—</b></div><div class="statLine"><span>AC input sensed</span><b id="inputV">— V</b></div><div class="statLine"><span>PV voltage</span><b id="pvVoltage">— V</b></div><div class="statLine"><span>PV current</span><b id="pvCurrent">— A</b></div><div class="statLine"><span>Inverter fault codes</span><b id="errors">—</b></div><div class="statLine"><span>Battery BMS flags</span><b id="bmsFlags">—</b></div><div class="statLine"><span>PV energy today*</span><b id="pvToday">—</b></div><div class="statLine"><span>Load energy today*</span><b id="loadToday">—</b></div></div>
+  <div class="section"><div class="row between"><h3 class="subhead" style="margin-bottom:0">All raw values</h3><button id="rawRefresh" class="btn sm outline">Refresh</button></div><div class="panel" style="margin-top:12px;overflow-x:auto"><table class="codeTable" id="rawData"><tr><td>Not connected</td><td>—</td></tr></table></div></div>
+  <p class="note">*Energy-unit interpretation is inferred from Enerwise field names and not independently calibrated. This app is monitoring-only.</p>
+ </section>
+ <section id="page-settings" class="screen">
+  <div class="eyebrow">Make it yours</div><h2>App settings ⚙️</h2><p class="screenLead">Your login and history stay on your phone. Monitoring talks directly to Enerwise over HTTPS.</p>
+  <div class="panel"><div class="row between"><div><b>✅ Saved Enerwise login</b><p class="note" style="margin:7px 0 0">Password protected with Android Keystore. Tokens are kept in memory.</p></div><span style="font-size:22px">🔒</span></div><div class="statLine" style="padding-left:0;padding-right:0;margin-top:9px"><span>Refresh while open</span><b>30 seconds</b></div><div class="statLine" style="padding-left:0;padding-right:0"><span>Locally stored history</span><b>120 days</b></div></div>
+  <div class="alertCard" style="margin-top:13px"><div class="switchRow"><div><b>🌤 Background monitoring</b><p>Collect a reading periodically when the app isn't open.</p></div><input id="background" class="switch" type="checkbox"></div><p class="note">Android JobScheduler runs jobs on an approximately 15-minute minimum cadence; actual execution may be delayed by battery saver, Doze or connectivity. Android force-stop disables background jobs until the app is opened again.</p><button class="btn sm" id="saveBackground">Save background setting</button></div>
+  <div class="panel" style="margin-top:13px"><b>Backup your charts</b><p class="note">Export readings and timestamps to CSV for Excel, Sheets, or archival storage.</p><button id="exportSettings" class="btn sm">Export history (CSV) ↗</button></div>
+  <div class="panel" style="margin-top:13px"><b>Account & storage</b><p class="note">Disconnect clears saved credentials but keeps historical graphs. Clearing history permanently removes saved readings and alert events from this phone.</p><div class="row" style="flex-wrap:wrap;margin-top:13px"><button id="disconnect" class="btn outline sm">Disconnect account</button><button id="wipe" class="btn danger sm">Delete saved history</button></div></div>
+  <div class="settingFooter note">Cabin Power 3.0 · independent, unofficial Enerwise cloud client · no Raspberry Pi · read-only inverter monitoring.</div>
+ </section>
+</main>
+<nav id="navigation" class="bottomNav hidden" aria-label="App navigation"><button class="navbtn active" data-page="overview"><span class="nicon">☀️</span>Home</button><button class="navbtn" data-page="trends"><span class="nicon">📈</span>Trends</button><button class="navbtn" data-page="alerts"><span class="nicon">🔔</span>Alerts</button><button class="navbtn" data-page="data"><span class="nicon">🛠</span>Device</button><button class="navbtn" data-page="settings"><span class="nicon">⚙️</span>Settings</button></nav>
+<script>
+'use strict';
+const $=id=>document.getElementById(id), bridge=()=>window.CabinBridge;
+const state={ready:false,active:true,page:'overview',metric:'pv',days:1,values:{},points:[],lastFetch:0,prefs:null,timer:null,sample:'',online:false};
+const defs={pv:['Solar production','W','#DEA019'],load:['Cabin consumption','W','#3A9FC3'],soc:['Battery SOC','%','#2D9B74'],voltage:['Battery voltage','V','#6088CB'],current:['Battery current','A','#BB8766'],temp:['Inverter temperature','°C','#D16F4C']};
+function fmt(v,d=0){if(v===null||v===undefined||v===''||!Number.isFinite(Number(v)))return'—';return Number(v).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});}
+function num(v){const n=Number(v);return v===null||v===undefined||v===''||!Number.isFinite(n)?null:n;}
+function set(id,t){$(id).textContent=t===undefined||t===null?'—':String(t)}
+function unit(v,s,d=0){return fmt(v,d)+' '+s}
+function parse(raw){try{return JSON.parse(raw)}catch(e){return {}}}
+function toast(t){set('statusLine',t);$('statusLine').classList.remove('hidden')}
+function showPage(page){
+ if(!['overview','trends','alerts','data','settings'].includes(page))return;
+ state.page=page;
+ document.querySelectorAll('.screen').forEach(el=>el.classList.toggle('active',el.id==='page-'+page));
+ document.querySelectorAll('.navbtn').forEach(el=>el.classList.toggle('active',el.dataset.page===page));
+ window.scrollTo({top:0,behavior:'smooth'});
+ if(page==='trends')refreshHistory();
+ if(page==='alerts'&&bridge()){bridge().events();bridge().preferences()}
+ if(page==='settings'&&bridge())bridge().preferences();
+}
+function showLogin(){stopTimer();$('login').classList.remove('hidden');$('app').classList.add('hidden');$('navigation').classList.add('hidden');$('loginSubmit').disabled=false}
+function showApp(){ $('login').classList.add('hidden');$('app').classList.remove('hidden');$('navigation').classList.remove('hidden'); }
+function nativeSetup(){showLogin()}
+function nativeSavedLogin(){showApp();toast('Saved login found. Loading latest cloud readings…')}
+function nativeStatus(s){const d=parse(s);toast(d.message||'Working…');$('refreshBtn').classList.add('spin')}
+function nativeError(s){const d=parse(s);const msg=d.message||'Unknown error';$('refreshBtn').classList.remove('spin');$('loginSubmit').disabled=false;
+ if($('app').classList.contains('hidden')){$('loginError').textContent=msg;$('loginError').classList.remove('hidden');showLogin()}
+ else{$('errorBar').textContent=msg;$('errorBar').classList.remove('hidden');toast('Last cloud attempt failed; showing last successful reading.');}
+}
+function nativeReadings(s){
+ const d=parse(s);state.values=d.values||{};state.sample=d.sampleTime||'';state.online=String(d.state||'').toLowerCase()==='online';state.lastFetch=d.receivedAtMs||Date.now();
+ showApp();$('errorBar').classList.add('hidden');$('refreshBtn').classList.remove('spin');$('loginSubmit').disabled=false;
+ set('online',state.online?'Online':'Cloud: '+(d.state||'unknown'));$('online').className='live'+(state.online?'':' warn');
+ set('lastSeen',state.sample?'Device sample · '+state.sample:'Latest cloud sample time unavailable');
+ set('heroHeadline',!state.online?'Inverter needs attention':(num(state.values.bSoc)!==null&&num(state.values.bSoc)<=20)?'Battery running low':'Power looks good ☀️');
+ set('deviceSample',state.sample||'—');set('deviceState',d.state||'unknown');
+ const v=state.values,pv=num(v.sPP1),load=((num(v.ldPB)||0)+(num(v.ldPC)||0));
+ set('pv',fmt(pv));set('soc',fmt(v.bSoc));set('load',fmt(load));set('amps',fmt(v.B_TA,1));
+ set('pvSub',fmt(v.spV1,1)+' V · '+fmt(v.spC1,1)+' A');set('battSub',fmt(v.bV,1)+' V');
+ set('loadSub','Leg B '+fmt(v.ldPB)+' W · C '+fmt(v.ldPC)+' W');
+ set('ampsSub',num(v.B_TA)!==null&&num(v.B_TA)<0?'BMS reports discharge':'Signed BMS current');
+ $('socFill').style.width=(Math.max(0,Math.min(100,num(v.bSoc)||0)))+'%';
+ set('flowPV',fmt(pv)+' W');set('flowSOC',fmt(v.bSoc)+'%');set('flowLoad',fmt(load)+' W');
+ set('mode','Mode code '+(v.DeStatus===undefined?'—':v.DeStatus));
+ $('wire1').classList.toggle('dim',!(pv>0));$('wire2').classList.toggle('dim',!(load>0));
+ set('outB',fmt(v.loadBV,1));set('outC',fmt(v.loadCV,1));set('temp',fmt(v.rTmpIn,1));set('soh',fmt(v.B_SOH));
+ set('inputV',unit(v.InAV,'V',1));set('pvVoltage',unit(v.spV1,'V',1));set('pvCurrent',unit(v.spC1,'A',1));
+ set('pvToday',unit(v.pvGenED,'kWh*',2));set('loadToday',unit(v.ldCnsmDE,'kWh*',2));
+ const errors=['ErCode1','ErCode2','ErCode3','ErCode4'].filter(x=>v[x]!==undefined&&num(v[x])!==0);
+ set('errors',errors.length?errors.map(x=>x+'='+v[x]).join('; '):'No active codes');
+ const flags=['B_OCP','B_LTP','B_MOTP','B_CeOTP','B_UVP','B_OVP','B_SYSE','B_COCP','B_CommE'].filter(x=>v[x]!==undefined&&num(v[x])!==0);
+ set('bmsFlags',flags.length?flags.join(', '):'No active flags');
+ const table=$('rawData');table.replaceChildren();Object.keys(v).sort().forEach(k=>{const tr=document.createElement('tr'),a=document.createElement('td'),b=document.createElement('td');a.textContent=k;b.textContent=String(v[k]);tr.append(a,b);table.append(tr)});
+ toast('Last fetched '+new Date(state.lastFetch).toLocaleTimeString()+' · Cloud data may lag');
+ if(state.page==='trends')refreshHistory();
+ startTimer();
+}
+function nativePreferences(s){const d=parse(s);state.prefs=d;
+ ['lowSocEnabled','highTempEnabled','offlineEnabled','notifications','background'].forEach(k=>{if(k in d)$(k).checked=!!d[k]});
+ $('lowSoc').value=d.lowSoc||20;$('highTemp').value=d.highTemp||60;updateThresholdLabels();
+}
+function updateThresholdLabels(){set('socThresholdLabel',$('lowSoc').value+'%');set('tempThresholdLabel',$('highTemp').value+'°C')}
+function currentPrefs(){return{background:$('background').checked,notifications:$('notifications').checked,lowSocEnabled:$('lowSocEnabled').checked,highTempEnabled:$('highTempEnabled').checked,offlineEnabled:$('offlineEnabled').checked,lowSoc:Number($('lowSoc').value),highTemp:Number($('highTemp').value)}}
+function savePrefs(){if(bridge())bridge().savePreferences(JSON.stringify(currentPrefs()))}
+function nativeEvents(s){const data=parse(s).events||[];const area=$('alertHistory');area.replaceChildren();
+ if(data.length===0){const div=document.createElement('div');div.className='empty';div.textContent='No alerts have triggered yet.';area.appendChild(div);return;}
+ for(const x of data){const wrap=document.createElement('div');wrap.className='alertEvent';const title=document.createElement('b');title.textContent=x.kind||'Alert';const tm=document.createElement('small');tm.textContent=' · '+new Date(x.t).toLocaleString();const p=document.createElement('p');p.textContent=x.message;wrap.append(title,tm,p);area.appendChild(wrap)}
+}
+function refreshHistory(){if(bridge())bridge().history(state.days)}
+function nativeHistory(s){const d=parse(s);if(Number(d.period)!==state.days)return;state.points=Array.isArray(d.points)?d.points:[];set('chartCount',(d.samples||0)+' saved samples');drawChart()}
+function measureLabel(v){if(v===null||v===undefined)return'—';const decimals=['voltage','current','temp'].includes(state.metric)?1:0;return fmt(v,decimals)}
+function drawChart(){
+ const canvas=$('chart');const rows=state.points.filter(p=>p&&num(p[state.metric])!==null);
+ $('emptyChart').classList.toggle('hidden',rows.length>0);canvas.classList.toggle('hidden',rows.length===0);
+ const box=canvas.getBoundingClientRect();const width=Math.max(310,box.width||350),height=box.height||247;const ratio=Math.min(3,window.devicePixelRatio||1);
+ canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);const ctx=canvas.getContext('2d');ctx.setTransform(ratio,0,0,ratio,0,0);ctx.clearRect(0,0,width,height);
+ const metric=defs[state.metric];set('chartTitle',metric[0]);const vals=rows.map(r=>num(r[state.metric]));
+ const stats=vals.slice().sort((a,b)=>a-b);set('statMin',stats.length?measureLabel(stats[0]):'—');set('statMax',stats.length?measureLabel(stats[stats.length-1]):'—');set('statAvg',vals.length?measureLabel(vals.reduce((a,b)=>a+b,0)/vals.length):'—');
+ if(!rows.length){set('chartInfo','No stored '+metric[0].toLowerCase()+' readings in this period');return}
+ const lo=stats[0],hi=stats[stats.length-1],pad=Math.max((hi-lo)*.16,hi===lo?Math.max(1,Math.abs(hi)*.05):.01),ymin=lo-pad,ymax=hi+pad;
+ const x0=49,x1=width-14,y0=19,y1=height-34;
+ const tmin=Date.now()-state.days*86400000,tmax=Date.now();
+ function x(t){return x0+(Math.max(tmin,Math.min(tmax,t))-tmin)/(tmax-tmin)*(x1-x0)}
+ function y(v){return y1-(v-ymin)/(ymax-ymin)*(y1-y0)}
+ ctx.lineWidth=1;ctx.strokeStyle='#EBE7DB';ctx.fillStyle='#91A0A1';ctx.font='11px system-ui';
+ for(let i=0;i<4;i++){const val=ymin+(ymax-ymin)*i/3,yp=y(val);ctx.beginPath();ctx.moveTo(x0,yp);ctx.lineTo(x1,yp);ctx.stroke();ctx.textAlign='right';ctx.fillText(fmt(val,Math.abs(ymax-ymin)<10?1:0),x0-8,yp+4)}
+ ctx.textAlign='center';for(let i=0;i<4;i++){const t=tmin+(tmax-tmin)*i/3;const dt=new Date(t);const label=state.days===1?dt.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'}):dt.toLocaleDateString([],{month:'short',day:'numeric'});ctx.fillText(label,x(t),height-10)}
+ // Segment interruptions: do not visually fabricate continuous readings through a long gap.
+ const gapLimit=state.days===1?60*60000:state.days===7?4*3600000:24*3600000;
+ ctx.strokeStyle=metric[2];ctx.lineWidth=2.8;ctx.lineCap='round';ctx.lineJoin='round';
+ ctx.beginPath();let prev=0;rows.forEach((r,i)=>{const px=x(Number(r.t)),py=y(Number(r[state.metric]));if(i===0||r.t-prev>gapLimit)ctx.moveTo(px,py);else ctx.lineTo(px,py);prev=r.t});ctx.stroke();
+ const first=rows[rows.length-1];ctx.fillStyle=metric[2];ctx.beginPath();ctx.arc(x(Number(first.t)),y(Number(first[state.metric])),4,0,Math.PI*2);ctx.fill();
+ const focus=canvas._touchX;
+ if(focus!==null&&focus!==undefined){let near=rows[0],dist=Infinity;for(const r of rows){const d=Math.abs(x(Number(r.t))-focus);if(d<dist){dist=d;near=r}}
+  const px=x(Number(near.t)),py=y(Number(near[state.metric]));ctx.setLineDash([4,4]);ctx.strokeStyle='#B0B4AE';ctx.beginPath();ctx.moveTo(px,y0);ctx.lineTo(px,y1);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle=metric[2];ctx.beginPath();ctx.arc(px,py,5,0,Math.PI*2);ctx.fill();
+  set('chartInfo',new Date(Number(near.t)).toLocaleString()+' • '+measureLabel(near[state.metric])+' '+metric[1]);
+ }else{set('chartInfo','Latest: '+measureLabel(first[state.metric])+' '+metric[1]+' · '+new Date(Number(first.t)).toLocaleString())}
+}
+function startTimer(){stopTimer();if(state.active)state.timer=setInterval(()=>{if(bridge())bridge().refresh()},30000)}
+function stopTimer(){if(state.timer){clearInterval(state.timer);state.timer=null}}
+function cabinPause(){state.active=false;stopTimer()}
+function cabinResume(){state.active=true;if(state.ready&&!$('app').classList.contains('hidden')){startTimer();if(bridge())bridge().refresh()}}
+function cabinBoot(){if(state.ready)return;state.ready=true;if(bridge())bridge().bootstrap();else showLogin()}
+$('loginForm').addEventListener('submit',e=>{e.preventDefault();$('loginSubmit').disabled=true;$('loginError').classList.add('hidden');const u=$('user').value,p=$('pass').value;$('pass').value='';if(bridge())bridge().login(u,p)});
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page)));
+document.querySelectorAll('.goSettings').forEach(b=>b.addEventListener('click',()=>showPage('settings')));
+$('refreshBtn').addEventListener('click',()=>{if(bridge())bridge().refresh()});$('rawRefresh').addEventListener('click',()=>{if(bridge())bridge().refresh()});
+$('openTrends').addEventListener('click',()=>showPage('trends'));
+document.querySelectorAll('.metric[data-chart]').forEach(b=>b.addEventListener('click',()=>{state.metric=b.dataset.chart;showPage('trends');updateTabs();refreshHistory()}));
+function updateTabs(){document.querySelectorAll('[data-metric]').forEach(b=>b.classList.toggle('selected',b.dataset.metric===state.metric));document.querySelectorAll('[data-days]').forEach(b=>b.classList.toggle('selected',Number(b.dataset.days)===state.days))}
+document.querySelectorAll('[data-metric]').forEach(b=>b.addEventListener('click',()=>{state.metric=b.dataset.metric;updateTabs();drawChart()}));
+document.querySelectorAll('[data-days]').forEach(b=>b.addEventListener('click',()=>{state.days=Number(b.dataset.days);updateTabs();refreshHistory()}));
+$('reloadHistory').addEventListener('click',refreshHistory);
+$('lowSoc').addEventListener('input',updateThresholdLabels);$('highTemp').addEventListener('input',updateThresholdLabels);
+$('saveAlerts').addEventListener('click',savePrefs);$('saveBackground').addEventListener('click',savePrefs);
+$('grantNotify').addEventListener('click',()=>{if(bridge())bridge().requestNotificationPermission()});
+$('reloadAlerts').addEventListener('click',()=>{if(bridge())bridge().events()});
+['exportTrends','exportSettings'].forEach(k=>$(k).addEventListener('click',()=>{if(bridge())bridge().exportHistory()}));
+$('disconnect').addEventListener('click',()=>{if(confirm('Disconnect Enerwise and delete saved login from this phone? Local history will remain.')){if(bridge())bridge().logout()}});
+$('wipe').addEventListener('click',()=>{if(confirm('Permanently delete every saved measurement and alert event? This cannot be undone.')){if(bridge())bridge().clearHistory()}});
+function chartFocus(e){const r=$('chart').getBoundingClientRect();const clientX=e.touches&&e.touches[0]?e.touches[0].clientX:e.clientX;$('chart')._touchX=clientX-r.left;drawChart()}
+$('chart').addEventListener('pointerdown',chartFocus);$('chart').addEventListener('pointermove',e=>{if(e.buttons||e.pointerType==='touch')chartFocus(e)});
+$('chart').addEventListener('touchstart',chartFocus,{passive:true});$('chart').addEventListener('touchmove',chartFocus,{passive:true});
+$('chart').addEventListener('pointerleave',()=>{$('chart')._touchX=null;drawChart()});
+window.addEventListener('resize',()=>{if(state.page==='trends')drawChart()});
+</script></body></html>
